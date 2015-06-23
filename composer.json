@@ -1,0 +1,22 @@
+{
+    "name": "zfegg/zfegg-admin",
+    "keywords": ["admin","zendframework2", "zf2"],
+    "description": "Zend Framework 2 Admin Module. 管理系统模块",
+    "require": {
+        "zfegg/zfegg-admin":"*"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "~1.0"
+    },
+    "authors": [
+        {
+            "name": "moln",
+            "email": "xiemaomao520@163.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Zfegg\\Admin\\OperationLog\\":"src"
+        }
+    }
+}
